@@ -126,36 +126,6 @@ Exemplo:
         "preco": 35.43,
         "peso": 2.5
     }
-
-
-### 3.2 Endpoints
-
-Para isso, precisaremos das seguintes rotas:
-
-1. **Cadastrar Restaurante**
-
-Receber as informações relevantes do restaurante e criar um novo cadastro do mesmo na base. Verificar se já não existe o mesmo antes de inserir. Além de todos os dados que julgar pertinente, o restaurante deve ter um **tipo de culinária** (Árabe, Brasileira, Chinesa, Francesa, frutos do mar, vegetariana, Italiana, pizza, hambúrguer, lanches, etc..).
-
-2. **Cadastrar Item**
-
-Dado um restaurante, cadastrar um novo item ao cardápio daquele restaurante. Este item deve conter toda e qualquer informação pertinente e, obrigatoriamente, um **preço**.
-
-
-3. **Atualizar Item**
-
-Dado um restaurante e um Item, atualizar o preço e os demais dados para os novos dados informados.
-
-
-4. **Listar restaurantes**
-
-Dado os parâmetros, trazer apenas os restaurantes que tiverem um match. Os parâmetros podem ser:
-  - **Cidade:** Recebe uma cidade e retorna os restaurantes cadastrados naquela cidade
-  - **Distância:** Recebe _lat_ e _lng_ e um raio (em quilômetros) e retorna apenas os restaurantes dentro da região
-  - **Tipo de cozinha:** recebe o **tipo de cozinha** e retorna os restaurantes daquele tipo
-  - **Prato:** recebe qualquer coisa que o cliente digitar relacionado aos pratos cadastrados (ex.: strogonoff) e traz os restaurantes que tiverem itens relacionados
-
-A consulta pode conter um ou mais destes parâmetros e deve trazer a junção de todos.
-
 ## 6 Considerações Finais
 
 Acredito ter passado todas as informações necessárias para explicar como pensei a solução e como fazer para rodar. Caso sobrem dúvidas sobre a operação ou configuração do ambiente, estou disponível para saná-las.
