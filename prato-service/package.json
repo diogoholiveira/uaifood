@@ -1,0 +1,20 @@
+{
+   "name": "prato-service",
+   "version": "0.0.1",
+   "description": "Microsserviço para gerenciamento de pratos.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "mysql2": "^2.2.5",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.31"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
